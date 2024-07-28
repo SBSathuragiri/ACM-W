@@ -1,0 +1,120 @@
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.Publication {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 90%;
+    margin: 14px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.Publication-describe p {
+    width: 50%;
+}
+
+.Publication-text h2 {
+    color: #cf2e2e
+}
+
+.Publication-describe {
+    font-size: 15px;
+    line-height: 25px;
+    color: #656565;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+}
+
+.link-button {
+    color: black;
+    border-color: black;
+    transition: transform 0.3s ease;
+    border-radius: 50px;
+}
+
+.link-button:hover {
+    background-color: green;
+    color: white;
+    border-color: green;
+    transform: scale(1.05);
+}
+
+.Chapters {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 15px;
+    margin-left: 650px;
+}
+
+.Chapters-describe {
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    color: #656565;
+}
+
+.Chapters-describe p {
+    width: 90%;
+}
+
+.Chapters-text h2 {
+    color: #cf2e2e;
+}
+
+.ACM-Queue {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 90%;
+    margin: 14px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.ACM-Queue-describe p {
+    width: 50%;
+}
+
+.ACM-Queue-text h2 {
+    color: #cf2e2e
+}
+
+.ACM-Queue-describe {
+    font-size: 15px;
+    line-height: 25px;
+    color: #656565;
+}
+
+.Elearn {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 15px;
+    margin-left: 650px;
+}
+
+.Elearn-describe {
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    color: #656565;
+}
+
+.Elearn-describe p {
+    width: 90%;
+}
+
+.Elearn-text h2 {
+    color: #cf2e2e;
+}
+

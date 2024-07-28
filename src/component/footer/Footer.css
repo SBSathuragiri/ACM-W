@@ -1,0 +1,149 @@
+.Footer {
+    justify-content: right;
+    display: flex;
+    position: sticky;
+    background-color: #0a2540;
+    height: 350px;
+    width: 100%;
+}
+
+.f-allign {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+}
+
+.Quick_Links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 230px;
+    margin-top: 20px
+}
+
+.Quick_Links h4 {
+    font-size: 20px;
+    color: #1091EF;
+}
+
+.Quick_Links ul {
+    list-style-type: none;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.Quick_Links li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.Quick_Links a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    margin-right: 230px;
+    margin-top: 20px
+}
+
+.contact-us h4 {
+    font-size: 20px;
+    color: #1091EF;
+}
+
+.contact-us ul {
+    list-style-type: none;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 230px;
+    margin-top: 20px
+}
+
+.follow h4 {
+    font-size: 20px;
+    color: #1091EF;
+}
+
+.follow ul {
+    list-style-type: none;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.follow li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.follow a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.FI {
+    margin-right: 7%;
+}
+
+/* .Footer a img {
+    height: 65px;
+    width: 100px;
+    margin-right: 1012px;
+}
+
+.Footer ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer ul {
+    margin-top: 25px;
+}
+
+.Footer li {
+    margin-right: 30px;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.Footer a:hover {
+    color: white;
+    text-decoration: underline;
+} */
