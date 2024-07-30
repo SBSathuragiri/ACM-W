@@ -10,40 +10,8 @@ body {
     filter: brightness(70%);
 }
 
-/* .About-ACM {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 90%;
-    margin: 14px;
-    margin-top: 50px;
-    margin-left: 100px;
-}
-
-.describe p {
-    width: 50%;
-}
-
-/* @keyframes ptag {
-    0%{
-        color: blue;
-        width: 0%;
-    }
-    100%{
-        width: 100%;
-    }
-} */
-/* 
-.about-us-text h2 {
-    color: #cf2e2e
-} */
-
-/* .describe {
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-    animation-name: ptag;
-    animation-duration: 3s;
+/* .About-Mission {
+    background-color: black;
 } */
 
 .about-heading {
@@ -70,100 +38,6 @@ body {
     width: 100px;
     height: 3px;
     background-color: orange;
-}
-
-/* .About-line {
-    margin-left: 46%;
-} */
-
-.About-ACM-IC {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 50%;
-    margin: 14px;
-    margin-left: 650px;
-}
-
-.describe-AMC {
-    width: 100%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
-
-.about-the-ACM h2 {
-    color: #cf2e2e
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.About-Mission {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    text-align: justify;
-    width: 90%;
-    margin: 14px;
-    margin-left: 100px;
-}
-
-.describe-mission {
-    width: 50%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
-
-.our-mission h2 {
-    color: #cf2e2e
-}
-
-.img-text h2 {
-    color: white;
-    margin-top: -45px;
-    margin-left: 550px;
-    position: absolute;
-
-}
-
-.why {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin: 15px;
-    margin-left: 650px;
-    width: 50%;
-}
-
-.describe-why {
-    width: 100%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
-
-.Why-ACM h2 {
-    color: #cf2e2e;
-}
-
-.Read-more {
-    color: black;
-    border-color: black;
-    transition: transform 0.3s ease;
-    border-radius: 50px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.Read-more:hover {
-    background-color: green;
-    color: white;
-    border-color: green;
-    transform: scale(1.05);
 }
 
 .img-sec {

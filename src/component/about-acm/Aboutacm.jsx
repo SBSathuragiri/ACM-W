@@ -1,13 +1,10 @@
 import React from 'react';
-import '../about/AboutPage.css';
+import '../about-acm/Aboutacm.css';
 
-function About() {
+function Aboutacm() {
   return (
     <section>
-
-
-      <h2>acm - w</h2>
-      {/* <div>
+      <div>
         <div className='India-Council Indian-Council-animation-text'>
           <div className="line"></div>
           <div className='heading'>
@@ -52,6 +49,7 @@ function About() {
 
       <div className='why'>
         <div className='clearfix'>
+          {/* <img className='img-sec' src={sI} /> */}
           <div className='line'></div>
           <div className='Why-ACM'>
             <h2>ACM awards</h2>
@@ -61,9 +59,9 @@ function About() {
             <a href='https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD' target='_blank'><button className='Read-more'>Become a Member</button></a>
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }
 
-export default About;
+export default Aboutacm;

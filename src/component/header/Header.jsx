@@ -14,8 +14,7 @@ function Header() {
           <li>
             <Link className='a about-hover' to="/about">About Us</Link>
             <ul className='About-us-hover'>
-              <li><Link className='a about' to="/about">About ACM - W</Link></li>
-              <li><Link className='a about' to="/about">About ACM</Link></li>
+              <li><Link className='a about' to="/About ACM">About ACM</Link></li>
             </ul>
           </li>
           <li><Link className='a' to="/resources">Resources</Link></li>

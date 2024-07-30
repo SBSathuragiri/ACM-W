@@ -9,6 +9,7 @@ import Event from './component/event/EventPage'
 import Gallery from './component/gallery/GalleryPage'
 import Footer from './component/footer/Footer';
 import Resources from './component/Resources/Resources';
+import Aboutacm from './component/about-acm/Aboutacm';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/About' element={<About/>} />
+        <Route path='/About ACM' element={< Aboutacm/>} />
         <Route path='/Resources' element={<Resources/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Events' element={<Event/>}/>
