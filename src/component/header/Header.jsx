@@ -11,13 +11,19 @@ function Header() {
 
         <ul>
           <li><Link className='a' to="/">Home</Link></li>
-          <li><Link className='a' to="/about">About Us</Link></li>
+          <li>
+            <Link className='a about-hover' to="/about">About Us</Link>
+            <ul className='About-us-hover'>
+              <li><Link className='a about' to="/about">About ACM - W</Link></li>
+              <li><Link className='a about' to="/about">About ACM</Link></li>
+            </ul>
+          </li>
           <li><Link className='a' to="/resources">Resources</Link></li>
           <li><Link className='a' to="/events">Events</Link></li>
           <li><Link className='a' to="/gallery">Gallery</Link></li>
           <li><Link className='a' to="/contact">Contact</Link></li>
         </ul>
-        
+
       </nav>
     </header>
   );

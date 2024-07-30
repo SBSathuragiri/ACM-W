@@ -15,15 +15,14 @@ function Home() {
         <h2>KARE ACM - W STUDENT CHAPTER</h2>
       </div>
 
-      <div className='About-ACM'>
-        <div className='clearfix'>
-          <div className='img-sec'></div>
-          <div className="line"></div>
-          <div className='about-us-text'>
-            <h2>About Us</h2>
+      <div>
+        <div className='About'>
+        <div className="line About-line"></div>
+          <div className='heading'>
+            <h2 className='about-heading'>About Us</h2>
           </div>
-          <div className='describe'>
-            <p>ACM - W Student Chapter at KARE campus is aimed to serve as a gateway of forums,panel discussions,and symposia that further a student’s proffesional development. Encouraging students to take an active interest in the emerging and exciting world of computing preparations and presentations of the technical reports and papers,and cooperative effforts on research projects allow students to test their technical expertise</p>
+          <div className='about-content'>
+            <p className='about-describe'>ACM - W Student Chapter at KARE campus is aimed to serve as a gateway of forums,panel discussions,and symposia that further a student’s proffesional development. Encouraging students to take an active interest in the emerging and exciting world of computing preparations and presentations of the technical reports and papers,and cooperative effforts on research projects allow students to test their technical expertise</p>
           </div>
         </div>
       </div>
@@ -51,7 +50,7 @@ function Home() {
             <h2>Our Mission Statement</h2>
           </div>
           <div className='describe-mission'>
-            <p><mark>Our mission is to support, celebrate, and advocate internationally for the full engagement of women in all aspects of the computing field, provide a wide range of programs and services to ACM members and work in the larger community to advance the contributions of technical women.</mark></p>
+            <p>Our mission is to support, celebrate, and advocate internationally for the full engagement of women in all aspects of the computing field, provide a wide range of programs and services to ACM members and work in the larger community to advance the contributions of technical women.</p>
           </div>
         </div>
       </div>

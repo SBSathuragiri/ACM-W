@@ -1,4 +1,24 @@
-.text {
-    font-size: 25px;
-    color: black;
+/* .India-Council {
+    background-color: black;
+} */
+
+.India-Council-heading {
+    display: flex;
+    margin-left: 50px;
+    color: #cf2e2e
+}
+
+.India-Council-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: #afafaf;
+    text-align: justify;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: orange;
 }

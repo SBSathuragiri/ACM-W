@@ -7,10 +7,10 @@ body {
 .bg-img {
     height: 550px;
     width: 100%;
-    /* filter: brightness(70%); */
+    filter: brightness(70%);
 }
 
-.About-ACM {
+/* .About-ACM {
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -24,13 +24,45 @@ body {
     width: 50%;
 }
 
+/* @keyframes ptag {
+    0%{
+        color: blue;
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+} */
+/* 
 .about-us-text h2 {
+    color: #cf2e2e
+} */
+
+/* .describe {
+    font-size: 15px;
+    line-height: 25px;
+    color: #656565;
+    animation-name: ptag;
+    animation-duration: 3s;
+} */
+
+.about-heading {
+    text-align: center;
     color: #cf2e2e
 }
 
-.describe {
-    font-size: 15px;
-    line-height: 25px;
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-describe {
+    animation-name: tags;
+    animation-duration: 5s;
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin-top: 0;
     color: #656565;
 }
 
@@ -39,6 +71,10 @@ body {
     height: 3px;
     background-color: orange;
 }
+
+/* .About-line {
+    margin-left: 46%;
+} */
 
 .About-ACM-IC {
     display: flex;
@@ -91,6 +127,7 @@ body {
     color: white;
     margin-top: -45px;
     margin-left: 550px;
+    position: absolute;
 
 }
 

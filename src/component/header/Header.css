@@ -32,7 +32,7 @@ body {
 }
 
 .navbar li {
-    margin-right: 30px;
+    margin-right: 30px !important;
 }
 
 .navbar li:last-child {
@@ -47,4 +47,20 @@ body {
 .a:hover {
     color: #FF6600;
     text-decoration: underline;
+}
+
+li {
+    position: relative !important;
+}
+
+.About-us-hover {
+    display: none !important;
+    width: 10pc;
+    position: absolute;
+    z-index: 999;
+    background: #333333;
+}
+
+li:hover > .About-us-hover {
+    display: block !important;
 }
