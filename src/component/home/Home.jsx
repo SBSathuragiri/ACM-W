@@ -16,7 +16,7 @@ function Home() {
 
       <div>
         <div className='About'>
-        {/* <div className="line About-line"></div> */}
+          {/* <div className="line About-line"></div> */}
           <div className='heading'>
             <h2 className='about-heading'>About Us</h2>
           </div>
@@ -26,17 +26,62 @@ function Home() {
         </div>
       </div>
 
-      <div className='About-Mission'>
+      {/* <div className='About-Mission'>
         <div className='clearfix'>
           <div className='img-sec'>
             <img src='' />
           </div>
-          <div className="line"></div>
+          <div className="line autoshow"></div>
           <div className='our-mission'>
-            <h2>Our Mission Statement</h2>
+            <h2 className='autoshow'>Our Mission Statement</h2>
           </div>
           <div className='describe-mission'>
-            <p>Our mission is to support, celebrate, and advocate internationally for the full engagement of women in all aspects of the computing field, provide a wide range of programs and services to ACM members and work in the larger community to advance the contributions of technical women.</p>
+            <p className='autoshow'>Our mission is to support, celebrate, and advocate internationally for the full engagement of women in all aspects of the computing field, provide a wide range of programs and services to ACM members and work in the larger community to advance the contributions of technical women.</p>
+          </div>
+        </div>
+      </div> */}
+
+      <div>
+        <div className='Mission Mission-animate-text'>
+          <div className="M-line autoshow"></div>
+          <div className='heading'>
+            <h2 className='Mission-heading autoshow'>Our Mission Statement</h2>
+          </div>
+          <div className='Mission-content'>
+            <p className='Mission-describe autoshow'>Our mission is to support, celebrate, and advocate internationally for the full engagement of women in all aspects of the computing field, provide a wide range of programs and services to ACM members and work in the larger community to advance the contributions of technical women.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='home-video'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xUmCqK5TxvU?si=qX_tlFYkQpJmjaln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <aside className="news-box">
+        <h2>UPDATES</h2>
+        <div>
+          <div className="news-content">
+            <p>Breaking News: Major Event Happens!</p>
+            <p>Update: More Details About the Event.</p>
+            <p>Exclusive: Interviews with Key Figures.</p>
+            <p>Breaking News: Major Event Happens!</p>
+            <p>Update: More Details About the Event.</p>
+            <p>Exclusive: Interviews with Key Figures.</p>
+            <p>Breaking News: Major Event Happens!</p>
+            <p>Update: More Details About the Event.</p>
+            <p>Exclusive: Interviews with Key Figures.</p>
+          </div>
+        </div>
+      </aside>
+
+      <div>
+        <div className='Mission Mission-animate-text'>
+          <div className="M-line autoshow"></div>
+          <div className='heading'>
+            <h2 className='Mission-heading autoshow'>Our Mission Statement</h2>
+          </div>
+          <div className='Mission-content'>
+            <p className='Mission-describe autoshow'>Our mission is to support, celebrate, and advocate internationally for the full engagement of women in all aspects of the computing field, provide a wide range of programs and services to ACM members and work in the larger community to advance the contributions of technical women.</p>
           </div>
         </div>
       </div>

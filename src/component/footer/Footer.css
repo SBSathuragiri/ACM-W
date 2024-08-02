@@ -1,3 +1,7 @@
+footer {
+    margin-bottom: 0;
+}
+
 .Footer {
     justify-content: right;
     display: flex;

@@ -14,6 +14,36 @@ body {
     background-color: black;
 } */
 
+.M-line {
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-left: 6%;
+}
+
+.Mission {
+    /* background-color: black; */
+}
+
+.Mission-heading {
+    margin-left: 6%;
+    color: #cf2e2e
+}
+
+.Mission-content {
+    display: flex;
+    width: 50%;
+    margin-left: 6%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.Mission-describe {
+    color: #656565;
+    letter-spacing: 1px;
+}
+
 .about-heading {
     text-align: center;
     color: #cf2e2e
@@ -22,6 +52,8 @@ body {
 .about-content {
     display: flex;
     justify-content: center;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .about-describe {
@@ -32,6 +64,7 @@ body {
     text-align: center;
     margin-top: 0;
     color: #656565;
+    letter-spacing: 2px;
 }
 
 .line {
@@ -46,4 +79,60 @@ body {
     margin-left: 90px;
 }
 
+.home-video {
+    margin-left: 6%;
+}
 
+.news-box {
+    width: 300px;
+    height: 350px;
+    margin-left: 70%;
+    margin-top: -25%;
+    border: 2px solid #000;
+    overflow: hidden;
+    position: absolute;
+}
+
+.news-box h2 {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.news-content {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    animation: moveUp 10s linear infinite;
+}
+
+
+.autoshow {
+    animation: autoshowanimation both;
+    animation-timeline: view(70% 5%);
+}
+
+@keyframes autoshowanimation {
+    from {
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes moveUp {
+    from {
+        bottom: -100%;
+    }
+
+    to {
+        bottom: 100%;
+    }
+}
