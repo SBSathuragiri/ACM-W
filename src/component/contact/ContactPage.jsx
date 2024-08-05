@@ -1,7 +1,6 @@
 import React from 'react';
 import '../contact/ContactPage.css';
 import contactImage from '../../assets/con1.jpg'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contact() {
   return (
