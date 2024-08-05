@@ -16,11 +16,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    height: 75px;
+    height: 80px;
 }
 
 .navbar a img {
-    height: 80px;
+    height: 70px;
     width: auto;
 }
 

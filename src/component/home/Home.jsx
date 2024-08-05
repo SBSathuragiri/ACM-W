@@ -54,7 +54,7 @@ function Home() {
       </div>
 
       <div className='home-video'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xUmCqK5TxvU?si=qX_tlFYkQpJmjaln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="650" height="356" src="https://www.youtube.com/embed/xUmCqK5TxvU?si=qX_tlFYkQpJmjaln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
       <aside className="news-box">
@@ -78,10 +78,10 @@ function Home() {
         <div className='Mission Mission-animate-text'>
           <div className="M-line autoshow"></div>
           <div className='heading'>
-            <h2 className='Mission-heading autoshow'>Our Mission Statement</h2>
+            <h2 className='Mission-heading autoshow'>ACM-W</h2>
           </div>
           <div className='Mission-content'>
-            <p className='Mission-describe autoshow'>Our mission is to support, celebrate, and advocate internationally for the full engagement of women in all aspects of the computing field, provide a wide range of programs and services to ACM members and work in the larger community to advance the contributions of technical women.</p>
+            <p className='Mission-describe autoshow'>ACM-W advocates internationally for the full engagement of women in all aspects of the computing field, providing a wide range of programs and services to ACM members and working in the larger community to advance the contributions of technical women.</p>
           </div>
         </div>
       </div>

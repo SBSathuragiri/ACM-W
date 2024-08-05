@@ -27,6 +27,7 @@ footer {
 .Quick_Links h4 {
     font-size: 20px;
     color: #1091EF;
+    white-space: nowrap;
 }
 
 .Quick_Links ul {
