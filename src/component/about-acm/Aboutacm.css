@@ -1,105 +1,173 @@
-/* .India-Council {
-    background-color: black;
-} */
+/* indian council */
+.India-Council {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.council-img {
+    float: right;
+    margin-top: 30px;
+    width: 30%;
+    margin-right: 80px;
+}
 
 .India-Council-heading {
     display: flex;
-    margin-left: 50px;
+    margin-left: 90px;
     color: #cf2e2e
 }
 
 .India-Council-describe {
     animation-name: ptags;
     animation-duration: 5s;
-    color: #afafaf;
+    color: black;
     text-align: justify;
-    margin-left: 50px;
+    margin-left: 90px;
     width: 50%;
 }
 
-.line {
+.council-line {
+    margin-left: 90px;
     width: 100px;
     height: 3px;
     background-color: orange;
+    margin-bottom: 10px;
 }
 
+/* why acm */
+.Why-ACM {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
 
+.Why-ACM-img {
+    float: left;
+    margin-top: 30px;
+}
 
-.About-ACM-IC {
+.Why-ACM-heading {
     display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 50%;
-    margin: 14px;
-    margin-left: 650px;
-}
-
-.describe-AMC {
-    width: 100%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
-
-.about-the-ACM h2 {
+    margin-left: 45%;
     color: #cf2e2e
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+.Why-ACM-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
+    text-align: justify;
+    margin-left: 45%;
+    width: 50%;
 }
 
-.About-Mission {
+.Why-ACM-line {
+    margin-left: 45%;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+.why-acm-btn {
+    margin-left: 45%;
+}
+
+/* membership */
+.Membership {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+
+.Membership-heading {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    text-align: justify;
-    width: 90%;
-    margin: 14px;
     margin-left: 100px;
-}
-
-.describe-mission {
-    width: 50%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
-
-.our-mission h2 {
     color: #cf2e2e
 }
 
-.img-text h2 {
-    color: white;
-    margin-top: -45px;
-    margin-left: 550px;
-    position: absolute;
-
-}
-
-.why {
-    display: flex;
-    flex-direction: column;
+.Membership-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
     text-align: justify;
-    margin: 15px;
-    margin-left: 650px;
+    margin-left: 100px;
     width: 50%;
 }
 
-.describe-why {
-    width: 100%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
+.Membership-line {
+    margin-left: 100px;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 10px;
 }
 
-.Why-ACM h2 {
-    color: #cf2e2e;
+.Membership-btn {
+    margin-left: 100px;
+    margin-right: -80px;
 }
 
+.membership-img {
+    width: 30%;
+    float: right;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+/* awards */
+
+.awards {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 50px;
+    margin-top: 210px;
+}
+
+.awards-heading {
+    display: flex;
+    margin-left: 45%;
+    color: #cf2e2e
+}
+
+.awards-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
+    text-align: justify;
+    margin-left: 45%;
+    width: 50%;
+}
+
+.awards-line {
+    margin-left: 45%;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+.awards-img {
+    width: 35%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.awards-btn {
+    margin-left: 60px;
+}
+
+
+/* button */
 .Read-more {
     color: black;
     border-color: black;
@@ -113,4 +181,103 @@
     color: white;
     border-color: green;
     transform: scale(1.05);
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+/* mobile css */
+
+
+@media screen and (max-width: 767px) {
+    .web-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .India-Council-heading,
+    .council-line {
+        margin-left: 6%;
+    }
+
+    .India-Council-describe {
+        margin-left: 6%;
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .council-img {
+        width: 70%;
+        height: auto;
+        margin-right: 22%;
+    }
+
+    .Why-ACM-heading,
+    .Why-ACM-line {
+        margin-left: 6%;
+    }
+
+    .Why-ACM-describe {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 150px;
+    }
+
+    .Why-ACM-img {
+        width: 70%;
+        margin-left: 6%;
+    }
+
+    .why-acm-btn {
+        margin-left: 6%;
+    }
+
+    .Membership-heading,
+    .Membership-line,
+    .awards-heading,
+    .awards-line {
+        margin-left: 6%;
+    }
+
+    .Membership-describe {
+        margin-left: 6%;
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .membership-img {
+        width: 70%;
+        height: auto;
+        margin-right: 24%;
+    }
+
+    .Membership-btn {
+        margin-left: 6%;
+        margin-right: -15px;
+    }
+
+    .awards {
+        margin-top: 50px;
+    }
+
+    .awards-describe {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 220px;
+    }
+
+    .awards-img {
+        width: 70%;
+        height: auto;
+        margin-left: 6%;
+    }
+
+    .awards-btn{
+        margin-left: 6%;
+    }
 }

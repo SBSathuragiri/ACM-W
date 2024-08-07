@@ -14,6 +14,11 @@ h2 {
     filter: brightness(70%);
 }
 
+.yt-video {
+    width: 650px;
+    height: 356px;
+}
+
 /* .About-Mission {
     background-color: black;
 } */
@@ -144,5 +149,66 @@ h2 {
 
     to {
         bottom: 100%;
+    }
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+/* mobile css */
+
+
+@media screen and (max-width: 767px) {
+    .web-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .about-describe {
+        width: 90%;
+        text-align: justify;
+        letter-spacing: 0;
+    }
+
+    .M-line {
+        margin-left: 6%;
+    }
+
+    .Mission-heading {
+        margin-left: 6%;
+    }
+
+    .Mission-content {
+        width: 90%;
+    }
+
+    .home-video {
+        margin-left: 1%;
+    }
+
+    .mobile-yt-video {
+        width: 22rem;
+        height: 16rem;
+    }
+
+    .news-box {
+        position: relative;
+        margin-left: 12%;
+        margin-top: 2%;
+    }
+
+    .img-text h2 {
+        font-size: 20px !important;
+        margin-top: -36px !important;
+        margin-left: 21px !important;
+    }
+
+    .bg-img {
+        height: 250px;
     }
 }

@@ -11,6 +11,7 @@ import Footer from './component/footer/Footer';
 import Resources from './component/Resources/Resources';
 import Aboutacm from './component/about-acm/Aboutacm';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Board from './component/theBoard/board';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Events' element={<Event/>}/>
         <Route path='/Gallery' element={<Gallery/>} />
+        <Route path='/Board' element={<Board/>} />
       </Routes>
       <Footer />
     </Router>

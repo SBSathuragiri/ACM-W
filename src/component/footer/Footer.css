@@ -152,3 +152,41 @@ a:hover {
     color: white;
     text-decoration: underline;
 } */
+
+
+.mobile-view {
+    display: none;
+}
+
+
+/* mobile css */
+
+
+@media screen and (max-width: 767px) {
+    .web-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .f-allign {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer {
+        height: 800px;
+    }
+
+    .FI {
+        width: 50%;
+        width: 50%;
+    }
+
+    .Quick_Links, .contact-us, .follow {
+        margin-left: 30px;
+        color: white;
+    }
+}

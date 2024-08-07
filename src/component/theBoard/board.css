@@ -1,0 +1,108 @@
+/* src/Board.css */
+.board {
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+}
+
+.board-title {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #333;
+    letter-spacing: 1.5px;
+}
+
+.board-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.board-member {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.board-member::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 123, 255, 0.3), rgba(0, 123, 255, 0.7));
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 0;
+}
+
+.board-member:hover::before {
+    transform: translateY(0);
+}
+
+.board-member:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.member-photo {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.member-info {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.member-name {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 600;
+}
+
+.member-position {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.member-bio {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .board-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .board-member {
+        max-width: 90%;
+    }
+
+    .member-name {
+        margin: 10px -10px;
+    }
+}

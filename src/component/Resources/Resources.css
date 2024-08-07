@@ -1,120 +1,348 @@
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+/* Publications */
+.Publications {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.Publication {
+.Publications-img {
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-top: 0px;
+    margin-right: 75px;
+}
+
+.Publications-heading {
     display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 90%;
-    margin: 14px;
-    margin-top: 50px;
-    margin-left: 100px;
-}
-
-.Publication-describe p {
-    width: 50%;
-}
-
-.Publication-text h2 {
+    margin-left: 50px;
     color: #cf2e2e
 }
 
-.Publication-describe {
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
+.Publications-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
+    text-align: justify;
+    margin-left: 50px;
+    width: 50%;
 }
 
-.line {
+.Publications-line {
+    margin-left: 52px;
     width: 100px;
     height: 3px;
     background-color: orange;
+    margin-bottom: 10px;
 }
 
-.link-button {
+.Publications-btn {
+    margin-left: 50px;
+    /* margin-right: -30px; */
+}
+
+/* Chapters */
+.Chapters {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.Chapters-img {
+    float: left;
+    margin-top: 0px;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.Chapters-heading {
+    display: flex;
+    margin-left: 49%;
+    color: #cf2e2e
+}
+
+.Chapters-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
+    text-align: justify;
+    margin-left: 49%;
+    width: 50%;
+}
+
+.Chapters-line {
+    margin-left: 49%;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+/* Acm Queue */
+.Queue {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+
+.Queue-img {
+    float: right;
+    margin-top: 30px;
+}
+
+.Queue-heading {
+    display: flex;
+    margin-left: 50px;
+    color: #cf2e2e
+}
+
+.Queue-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
+    text-align: justify;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.Queue-line {
+    margin-left: 52px;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+
+.Queue-img {
+    width: 30%;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+/* Elearn magazine */
+
+.Elearn {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.Elearn-heading {
+    display: flex;
+    margin-left: 49%;
+    color: #cf2e2e
+}
+
+.Elearn-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
+    text-align: justify;
+    margin-left: 49%;
+    width: 50%;
+}
+
+.Elearn-line {
+    margin-left: 49%;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+.Elearn-img {
+    width: 30%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+
+/* Explore xrds */
+
+.Explore {
+    /* background-color: black; */
+    /* flex-wrap: nowrap; */
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+
+.Explore-heading {
+    display: flex;
+    margin-left: 50px;
+    color: #cf2e2e
+}
+
+.Explore-describe {
+    animation-name: ptags;
+    animation-duration: 5s;
+    color: black;
+    text-align: justify;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.Explore-line {
+    margin-left: 52px;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+.Explore-img {
+    width: 30%;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+
+/* button */
+
+.Read-more {
     color: black;
     border-color: black;
     transition: transform 0.3s ease;
     border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.link-button:hover {
+.Read-more:hover {
     background-color: green;
     color: white;
     border-color: green;
     transform: scale(1.05);
 }
 
-.Chapters {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin: 15px;
-    margin-left: 650px;
+.mobile-view {
+    display: none;
 }
 
-.Chapters-describe {
-    width: 100%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
 
-.Chapters-describe p {
-    width: 90%;
-}
+/* mobile css */
 
-.Chapters-text h2 {
-    color: #cf2e2e;
-}
 
-.ACM-Queue {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 90%;
-    margin: 14px;
-    margin-top: 50px;
-    margin-left: 100px;
-}
+@media screen and (max-width: 767px) {
+    .web-view {
+        display: none;
+    }
 
-.ACM-Queue-describe p {
-    width: 50%;
-}
+    .mobile-view {
+        display: block;
+    }
 
-.ACM-Queue-text h2 {
-    color: #cf2e2e
-}
+    .Publications-img {
+        margin-top: 0px;
+        margin-right: 115px;
+        width: 70%;
+    }
 
-.ACM-Queue-describe {
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
+    .Publications-describe {
+        margin-left: 6%;
+        width: 90%;
+    }
 
-.Elearn {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin: 15px;
-    margin-left: 650px;
-}
+    .Publications-heading {
+        margin-left: 6%;
+    }
 
-.Elearn-describe {
-    width: 100%;
-    font-size: 15px;
-    line-height: 25px;
-    color: #656565;
-}
+    .Publications-line {
+        margin-left: 6%;
+    }
 
-.Elearn-describe p {
-    width: 90%;
-}
+    .Publications-btn {
+        margin-left: 6%;
+    }
 
-.Elearn-text h2 {
-    color: #cf2e2e;
-}
+    .Chapters-describe {
+        margin-left: 6%;
+        width: 90%;
+        margin-top: 180px;
 
+    }
+
+    .Chapters-img {
+        margin-top: 0;
+        margin-left: 6%;
+        width: 70%;
+    }
+
+    .Chapters-line {
+        margin-left: 6%;
+    }
+
+    .Chapters-heading {
+        margin-left: 6%;
+    }
+
+    .Chapters {
+        margin-top: 50px;
+    }
+
+    .Queue {
+        margin-top: 50px;
+    }
+
+    .Queue-line,
+    .Queue-heading {
+        margin-left: 6%;
+    }
+
+    .Queue-describe {
+        margin-left: 6%;
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .Queue-img {
+        width: 70%;
+        margin-right: 23%;
+    }
+
+    .Elearn-describe {
+        margin-top: 217px;
+        margin-left: 6%;
+        width: 90%;
+    }
+
+    .Elearn-heading, .Elearn-line {
+        margin-left: 6%;
+    }
+
+    .Elearn-img {
+        width: 70%;
+        margin-left: 6%;
+    }
+
+    .Explore-describe {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 200px;
+    }
+
+    .Explore-heading, .Explore-line {
+        margin-left: 6%;
+    }
+
+    .Explore-img {
+        width: 70%;
+        margin-top: 10px;
+        margin-right: 23%;
+    }
+
+    .Explore {
+        margin-top: 50px;
+    }
+}
