@@ -60,7 +60,7 @@ function Resources() {
         </div>
 
         <div className='Explore Indian-Council-animation-text'>
-          <img className='membership-img' src={explore} alt="indian council" />
+          <img className='Explore-img' src={explore} alt="indian council" />
           <div className="Explore-line"></div>
           <div className='heading'>
             <h2 className='Explore-heading'>Explore xrds!</h2>

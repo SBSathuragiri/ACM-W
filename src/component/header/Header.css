@@ -46,11 +46,36 @@ body {
 
 .a:hover {
     color: gray;
-    text-decoration: underline;
+    text-decoration: none;
+    list-style: none;
+
 }
 
 li {
     position: relative !important;
+}
+
+.a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #e74c3c;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
+.a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #e74c3c;
+}
+
+.a:hover {
+    color: #e74c3c;
 }
 
 .About-us-hover {

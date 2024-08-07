@@ -59,7 +59,7 @@
 
 .Chapters-heading {
     display: flex;
-    margin-left: 49%;
+    margin-left: 46%;
     color: #cf2e2e
 }
 
@@ -68,12 +68,12 @@
     animation-duration: 5s;
     color: black;
     text-align: justify;
-    margin-left: 49%;
+    margin-left: 46%;
     width: 50%;
 }
 
 .Chapters-line {
-    margin-left: 49%;
+    margin-left: 46%;
     width: 100px;
     height: 3px;
     background-color: orange;
@@ -137,7 +137,7 @@
 
 .Elearn-heading {
     display: flex;
-    margin-left: 49%;
+    margin-left: 46%;
     color: #cf2e2e
 }
 
@@ -146,12 +146,12 @@
     animation-duration: 5s;
     color: black;
     text-align: justify;
-    margin-left: 49%;
+    margin-left: 46%;
     width: 50%;
 }
 
 .Elearn-line {
-    margin-left: 49%;
+    margin-left: 46%;
     width: 100px;
     height: 3px;
     background-color: orange;
@@ -162,7 +162,7 @@
     width: 30%;
     float: left;
     margin-top: 5px;
-    margin-left: 35px;
+    margin-left: 48px;
     margin-bottom: 50px;
     height: auto;
 }
@@ -204,7 +204,7 @@
 .Explore-img {
     width: 30%;
     float: right;
-    margin-right: 60px;
+    margin-right: 65px;
     margin-bottom: 50px;
 }
 

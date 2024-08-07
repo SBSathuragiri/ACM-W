@@ -13,10 +13,10 @@ function Header() {
           <li><Link className='a' to="/">Home</Link></li>
           <li>
             <Link className='a about-hover' to="/about">About Us</Link>
-            <ul className='About-us-hover'>
-              <li><Link className='a about' to="/About ACM">About ACM</Link></li>
-            </ul>
+            {/* <ul className='About-us-hover'> */}
+            {/* </ul> */}
           </li>
+          <li><Link className='a about' to="/About ACM">About ACM</Link></li>
           <li><Link className='a' to="/resources">Resources</Link></li>
           <li><Link className='a' to="/Board">The Board</Link></li>
           <li><Link className='a' to="/events">Events</Link></li>

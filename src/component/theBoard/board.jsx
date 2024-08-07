@@ -1,5 +1,7 @@
 import React from 'react';
 import '../theBoard/board.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faLinkedinIn, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const boardMembers = [
     {
@@ -8,13 +10,15 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'Dean/SOC & Director',
         bio: 'Kalasalingam Academy of Research and Education.',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Mr.S.Sathyanarayanan',
         clubposition: 'Vice Chair',
         image: '../../assets/acm-logo.png',
-        position: 'Mr.S.Sathyanarayanan',
-        bio: 'HCL Technologies,Madurai.',
+        position: 'Senior Technical Specialist ',
+        bio: 'HCL Technologies, Madurai.',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Dr.N.Suresh Kumar',
@@ -22,6 +26,7 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'HoD/CSE',
         bio: 'Kalasalingam Academy of Research and Education.',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Dr.P.Nagaraj',
@@ -29,6 +34,7 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'Associate Professor',
         bio: 'Kalasalingam Academy of Research and Education.',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Dr.P.Anitha',
@@ -36,6 +42,7 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'Associate Professor',
         bio: 'Kalasalingam Academy of Research and Education.',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Mrs.S.Shanmugapriya',
@@ -43,6 +50,7 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'Assistant Professor',
         bio: 'Kalasalingam Academy of Research and Education.',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Mrs.N.Kirthiga',
@@ -50,6 +58,7 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'Assistant Professor',
         bio: 'Kalasalingam Academy of Research and Education',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Mrs.S.Reshni',
@@ -57,6 +66,7 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'Assistant Professor',
         bio: 'Kalasalingam Academy of Research and Education',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
     {
         name: 'Mrs.B.Lavanya',
@@ -64,8 +74,9 @@ const boardMembers = [
         image: '../../assets/acm-logo.png',
         position: 'Assistant Professor',
         bio: 'Kalasalingam Academy of Research and Education',
+        linkedin: 'https://www.linkedin.com/in/sathuragiri22',
     },
-    
+
 
 ];
 
@@ -73,7 +84,6 @@ const boardMembers = [
 function Board() {
     return (
         <div className="board">
-            {/* <h1 className="board-title">Our Board Members</h1> */}
             <div className="board-members">
                 {boardMembers.map((member, index) => (
                     <div key={index} className="board-member">
@@ -83,6 +93,10 @@ function Board() {
                             <h4 className="member-position">{member.clubposition}</h4>
                             <h3 className="member-position">{member.position}</h3>
                             <p className="member-bio">{member.bio}</p>
+                            <div className="connect">
+                                {/* <span className="connect-text">Connect</span> */}
+                                <a href={member.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                            </div>
                         </div>
                     </div>
                 ))}

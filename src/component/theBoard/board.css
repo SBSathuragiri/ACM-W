@@ -91,6 +91,17 @@
     line-height: 1.5;
 }
 
+.connect {
+    border: 1px solid black;
+    width: 20%;
+    /* background-color: white; */
+}
+
+.connect:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .board-members {
