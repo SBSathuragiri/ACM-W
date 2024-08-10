@@ -1,5 +1,6 @@
 footer {
     margin-bottom: 0;
+    list-style: none;
 }
 
 .Footer {
@@ -38,6 +39,8 @@ footer {
 }
 
 .Quick_Links li {
+    list-style-type: none;
+    text-decoration: none;
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -48,7 +51,7 @@ footer {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .contact-us {
@@ -81,7 +84,7 @@ a:hover {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .follow {
@@ -114,7 +117,7 @@ a:hover {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .FI {

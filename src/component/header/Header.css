@@ -45,15 +45,23 @@ body {
 }
 
 .a:hover {
-    color: gray;
     text-decoration: none;
     list-style: none;
-
 }
 
 li {
     position: relative !important;
 }
+
+li:hover {
+    z-index: 1;
+    opacity: 1;
+    transform: scale(1.1) !important;
+}
+
+
+
+
 
 .a::after {
     content: '';
@@ -63,7 +71,7 @@ li {
     display: block;
     margin-top: 5px;
     right: 0;
-    background: #e74c3c;
+    background: white;
     transition: width 0.3s ease;
     -webkit-transition: width 0.3s ease;
 }
@@ -71,11 +79,11 @@ li {
 .a:hover::after {
     width: 100%;
     left: 0;
-    background: #e74c3c;
+    background: white;
 }
 
 .a:hover {
-    color: #e74c3c;
+    color: white;
 }
 
 .About-us-hover {

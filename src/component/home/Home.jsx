@@ -107,7 +107,7 @@ function Home() {
         </div>
 
         <div className="news-box">
-          <h2>UPDATES</h2>
+          <h2>Upcoming</h2>
           <div>
             <div className="news-content">
               <p>Breaking News: Major Event Happens!</p>

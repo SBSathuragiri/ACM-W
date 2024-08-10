@@ -24,17 +24,17 @@ function Contact() {
           <p>Let's talk about the work!</p>
         </div>
 
-        <div>
+        <form>
           <div className='connect-us'>
 
             <div className='name-input'>
               <label htmlFor="Name">Name *</label>
-              <input className='form-control' type="text" name="Name-input" id="Name-input" />
+              <input className='form-control' type="text" name="Name-input" id="Name-input" required/>
             </div>
 
             <div className='email-input'>
               <label htmlFor="Email">Email *</label>
-              <input className='form-control' type="email" name="Email" id="msg-Emial" />
+              <input className='form-control' type="email" name="Email" id="msg-Email" required/>
             </div>
 
             <div className='msg-input'>
@@ -47,7 +47,7 @@ function Contact() {
             </div>
 
           </div>
-        </div>
+        </form>
       </div>
 
     {/* mobile-view */}
@@ -68,17 +68,17 @@ function Contact() {
           <p>Let's talk about the work!</p>
         </div>
 
-        <div>
+        <form>
           <div className='connect-us'>
 
             <div className='name-input'>
               <label htmlFor="Name">Name *</label>
-              <input className='form-control' type="text" name="Name-input" id="Name-input" />
+              <input className='form-control' type="text" name="Name-input" id="Name-input" required/>
             </div>
 
             <div className='email-input'>
               <label htmlFor="Email">Email *</label>
-              <input className='form-control' type="email" name="Email" id="msg-Emial" />
+              <input className='form-control' type="email" name="Email" id="msg-Email" required/>
             </div>
 
             <div className='msg-input'>
@@ -91,7 +91,7 @@ function Contact() {
             </div>
 
           </div>
-        </div>
+        </form>
       </div>
     </section>
 

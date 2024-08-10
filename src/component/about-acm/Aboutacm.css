@@ -9,13 +9,13 @@
 .council-img {
     float: right;
     margin-top: 30px;
-    width: 30%;
-    margin-right: 80px;
+    width: 35%;
+    margin-right: 50px;
 }
 
 .India-Council-heading {
     display: flex;
-    margin-left: 90px;
+    margin-left: 50px;
     color: #cf2e2e
 }
 
@@ -24,12 +24,12 @@
     animation-duration: 5s;
     color: black;
     text-align: justify;
-    margin-left: 90px;
+    margin-left: 50px;
     width: 50%;
 }
 
 .council-line {
-    margin-left: 90px;
+    margin-left: 50px;
     width: 100px;
     height: 3px;
     background-color: orange;
@@ -88,7 +88,7 @@
 
 .Membership-heading {
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
     color: #cf2e2e
 }
 
@@ -97,12 +97,12 @@
     animation-duration: 5s;
     color: black;
     text-align: justify;
-    margin-left: 100px;
+    margin-left: 50px;
     width: 50%;
 }
 
 .Membership-line {
-    margin-left: 100px;
+    margin-left: 50px;
     width: 100px;
     height: 3px;
     background-color: orange;
@@ -110,14 +110,14 @@
 }
 
 .Membership-btn {
-    margin-left: 100px;
-    margin-right: -80px;
+    margin-left: 50px;
+    margin-right: -30px;
 }
 
 .membership-img {
     width: 30%;
     float: right;
-    margin-right: 80px;
+    margin-right: 50px;
     margin-bottom: 50px;
 }
 
@@ -132,7 +132,7 @@
 
 .awards-heading {
     display: flex;
-    margin-left: 45%;
+    margin-left: 47%;
     color: #cf2e2e
 }
 
@@ -141,12 +141,12 @@
     animation-duration: 5s;
     color: black;
     text-align: justify;
-    margin-left: 45%;
+    margin-left: 47%;
     width: 50%;
 }
 
 .awards-line {
-    margin-left: 45%;
+    margin-left: 47%;
     width: 100px;
     height: 3px;
     background-color: orange;
@@ -157,13 +157,13 @@
     width: 35%;
     float: left;
     margin-top: 5px;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-bottom: 50px;
     height: auto;
 }
 
 .awards-btn {
-    margin-left: 60px;
+    margin-left: 130px;
 }
 
 
