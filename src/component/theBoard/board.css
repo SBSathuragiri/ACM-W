@@ -37,11 +37,12 @@
     width: 300px;
     text-align: left;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid black;
 }
 
-.board-member::before {
+/* .board-member::before {
     content: '';
     position: absolute;
     top: 0;
@@ -49,17 +50,17 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(180deg, rgba(0, 123, 255, 0.3), rgba(0, 123, 255, 0.7));
-    transform: translateY(100%);
+    transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
     z-index: 0;
-}
+} */
 
 .board-member:hover::before {
     transform: translateY(0);
 }
 
 .board-member:hover {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
@@ -102,17 +103,47 @@
 
 .connect {
     border: 2px solid black;
-    width: 15%;
+    width: 50%;
+    height: 25%;
     text-align: center;
     background-color: white;
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 68px;
+}
+
+
+
+.connect label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.connect label {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .connect a {
-    font-size: large;
+    transform: translateX(0%);
+    opacity: 0;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
 }
 
-.connect:hover {
-    transform: scale(1.1);
+.connect:hover label {
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+.connect:hover a {
+    transform: translateX(0);
+    opacity: 1; 
 }
 
 
@@ -121,7 +152,7 @@
     .board-members {
         flex-direction: column;
         align-items: center;
-        
+
     }
 
     .board-member {

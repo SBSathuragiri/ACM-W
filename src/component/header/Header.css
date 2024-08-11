@@ -127,7 +127,7 @@ li:hover>.About-us-hover {
 
     #menubtn a {
         text-decoration: none;
-        color: #232323;
+        color: white;
         transition: color 0.3s ease;
     }
 
@@ -174,7 +174,7 @@ li:hover>.About-us-hover {
     #menubtn input:checked~span {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #232323;
+        background: white;
     }
 
     #menubtn input:checked~span:nth-last-child(3) {
@@ -194,7 +194,7 @@ li:hover>.About-us-hover {
         margin: -100px 0 0 -50px;
         padding: 50px;
         padding-top: 125px;
-        background: #ededed;
+        background: #333333;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;

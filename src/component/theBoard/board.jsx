@@ -1,7 +1,7 @@
 import React from 'react';
 import '../theBoard/board.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedinIn, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedinIn, faXTwitter, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Sponcer = [
     {
@@ -177,8 +177,9 @@ function Board() {
     return (
         <div className="board">
             <h1>Faculty Sponcer</h1>
-            <div className="board-members">
-                {Sponcer.map((member, index) => (
+            {Sponcer.map((member, index) => (
+                <div className="board-members">
+
                     <div key={index} className="board-member">
                         <div className="member-photo" style={{ backgroundImage: `url(${member.image})` }}></div>
                         <div className="member-info">
@@ -187,12 +188,15 @@ function Board() {
                             {/* <h3 className="member-position">{member.position}</h3> */}
                             <p className="member-bio">{member.bio}</p>
                             <div className="connect">
-                                <a href={member.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                                <label htmlFor="connect">Connect</label>
+                                <a href={member.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /> </a>
+                                <a href="http://" target='_blank'><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
                         </div>
                     </div>
-                ))}
-            </div>
+
+                </div>
+            ))}
 
             <div className="board">
                 <h1>Faculty Coordinator</h1>
@@ -203,10 +207,12 @@ function Board() {
                             <div className="member-info">
                                 <h2 className="member-name">{member.name}</h2>
                                 <h4 className="member-position">{member.clubposition}</h4>
-                                <h3 className="member-position">{member.position}</h3>
+                                {/* <h3 className="member-position">{member.position}</h3> */}
                                 <p className="member-bio">{member.bio}</p>
                                 <div className="connect">
-                                    <a href={member.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                                    <label htmlFor="connect">Connect</label>
+                                    <a href={member.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /> </a>
+                                    <a href="http://" target='_blank'><FontAwesomeIcon icon={faInstagram} /></a>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +232,9 @@ function Board() {
                                 {/* <h3 className="member-position">{member.position}</h3> */}
                                 <p className="member-bio">{member.bio}</p>
                                 <div className="connect">
-                                    <a href={member.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                                    <label htmlFor="connect">Connect</label>
+                                    <a href={member.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /> </a>
+                                    <a href="http://" target='_blank'><FontAwesomeIcon icon={faInstagram} /></a>
                                 </div>
                             </div>
                         </div>
