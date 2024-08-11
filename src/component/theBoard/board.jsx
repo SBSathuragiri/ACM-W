@@ -29,7 +29,7 @@ const coordinator = [
         image: require('../../assets/P.Kardeepa.jpg'),
         position: 'Assistant Professor',
         bio: 'Kalasalingam Academy of Research and Education',
-        linkedin: 'https://www.linkedin.com/in/',
+        linkedin: 'https://www.linkedin.com/in/p-kardeepa-cse-684a51306/',
     },
 ];
 

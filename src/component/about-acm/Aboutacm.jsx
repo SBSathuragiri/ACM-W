@@ -40,8 +40,8 @@ function Aboutacm() {
           </div>
           <div className='Membership-content'>
             <p className='Membership-describe'>ACM provides enormous ways to enhance your career by providing resources, communication tools, along with its online courses, books and learning paths etc!!…</p>
-            <a className='Membership-btn' href="https://www.acm.org/membership" target='_blank'><button className='Read-more'>Read more</button></a>
-            <a className='Membership-btn' href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button className='Read-more'>Become a Member</button></a>
+            <a href="https://www.acm.org/membership" target='_blank'><button className='Read-more'>Read more</button></a>
+            <a href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button className='Membership-btn'>Become a Member</button></a>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ function Aboutacm() {
           </div>
           <div className='awards-content'>
             <p className='awards-describe'>ACM recognizes excellence through its eminent series of awards for technical and professional achievements and contributions in computer science and information technology…</p>
-            <a className='awards-btn' href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button className='Read-more'>Become a Member</button></a>
+            <a className='awards-btn' href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button className='Membership-btn'>Become a Member</button></a>
           </div>
         </div>
 

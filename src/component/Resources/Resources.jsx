@@ -22,7 +22,7 @@ function Resources() {
           </div>
           <div className='Publications-content'>
             <p className='Publications-describe'>For more than 60 years, the best and brightest minds in computing have come to ACM to meet, share ideas, publish their work and change the world. ACM’s publications are among the most respected and highly cited in the field…</p>
-            <a className='Publications-btn' href='https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD' target='_blank'><button className='Read-more'>Become a Member</button></a>
+            <a className='Publications-btn' href='https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD' target='_blank'><button className='Membership-btn'>Become a Member</button></a>
           </div>
         </div>
 

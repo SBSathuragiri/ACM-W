@@ -37,9 +37,9 @@ function Footer() {
           <div className='follow'>
             <h4>Follow Us</h4>
             <ul>
-              <li><a href="#"><FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn</a></li>
-              <li><a href="#"><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
-              <li><a href="#"><FontAwesomeIcon icon={faYoutube} /> Youtube</a></li>
+              <li><a href="https://www.linkedin.com/in/kare-acm-w-student-chapter-8212b8320#" target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/share/Rmq2dZXKTUvmmUGb/?mibextid=qi2Omg" target='_blank'><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
+              <li><a href="https://www.youtube.com/@ACM-WSTUDENTCHAPTERKARE" target='_blank'><FontAwesomeIcon icon={faYoutube} /> Youtube</a></li>
               <li><a href="#"><FontAwesomeIcon icon={faXTwitter} /> Twitter</a></li>
             </ul>
           </div>
@@ -74,9 +74,9 @@ function Footer() {
           <div className='follow'>
             <h4>Follow Us</h4>
             <ul>
-              <li><a href="#"><FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn</a></li>
-              <li><a href="#"><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
-              <li><a href="#"><FontAwesomeIcon icon={faYoutube} /> Youtube</a></li>
+            <li><a href="https://www.linkedin.com/in/kare-acm-w-student-chapter-8212b8320#"><FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/share/Rmq2dZXKTUvmmUGb/?mibextid=qi2Omg"><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
+              <li><a href="https://www.youtube.com/@ACM-WSTUDENTCHAPTERKARE"><FontAwesomeIcon icon={faYoutube} /> Youtube</a></li>
               <li><a href="#"><FontAwesomeIcon icon={faXTwitter} /> Twitter</a></li>
             </ul>
           </div>
