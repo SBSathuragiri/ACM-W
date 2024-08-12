@@ -124,24 +124,24 @@
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-  }
-  
-  .Membership-btn:hover {
+}
+
+.Membership-btn:hover {
     background: #3fb3e6;
     box-shadow: 0 0 30px 3px #3fb3e6;
     color: #fff;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-  }
-  
-  .Membership-btn:hover::before {
+}
+
+.Membership-btn:hover::before {
     -webkit-animation: sh02 0.5s 0s linear;
     -moz-animation: sh02 0.5s 0s linear;
     animation: sh02 0.5s 0s linear;
-  }
-  
-  .Membership-btn::before {
+}
+
+.Membership-btn::before {
     content: '';
     display: block;
     width: 0px;
@@ -157,30 +157,30 @@
     -ms-transform: skewX(-20deg);
     -o-transform: skewX(-20deg);
     transform: skewX(-20deg);
-  }
-  
-  @keyframes sh02 {
+}
+
+@keyframes sh02 {
     from {
-      opacity: 0;
-      left: 0%;
+        opacity: 0;
+        left: 0%;
     }
-  
+
     50% {
-      opacity: 1;
+        opacity: 1;
     }
-  
+
     to {
-      opacity: 0;
-      left: 100%;
+        opacity: 0;
+        left: 100%;
     }
-  }
-  
-  .Membership-btn:active {
+}
+
+.Membership-btn:active {
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: box-shadow 0.2s ease-in;
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
-  }
+}
 
 .membership-img {
     width: 30%;
@@ -236,20 +236,44 @@
 
 
 /* button */
-.Read-more {
-    color: black;
-    border-color: black;
-    transition: transform 0.3s ease;
-    border-radius: 50px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* From Uiverse.io by AKApsides01 */
+.button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    height: 45px;
+    width: 190px;
+    background: rgb(164, 46, 194);
+    color: #fff;
 }
 
-.Read-more:hover {
-    background-color: green;
-    color: white;
-    border-color: green;
-    transform: scale(1.05);
+.button-text {
+    transform: translateX(15px);
+    font-size: 1.5em;
+    font-weight: 700;
+    transition-duration: 0.3s;
 }
+
+.iconer {
+    transform: translateY(40px);
+    transition-duration: 0.3s;
+}
+
+.button:hover .button-text {
+    transform: translateX(0px);
+}
+
+.button:hover .iconer {
+    transform: translateY(0px);
+}
+
+
+
 
 .mobile-view {
     display: none;
@@ -345,7 +369,7 @@
         margin-left: 6%;
     }
 
-    .awards-btn{
+    .awards-btn {
         margin-left: 6%;
     }
 }

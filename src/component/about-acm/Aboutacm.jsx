@@ -28,7 +28,9 @@ function Aboutacm() {
           </div>
           <div className='Why-ACM-content'>
             <p className='Why-ACM-describe'>ACM, the world’s largest educational and scientific computing society, delivers resources that advance computing as a science and a profession…</p>
-            <a className='why-acm-btn' href="https://www.acm.org/" target='_blank'><button className='Read-more'>Read more</button></a>
+            <a className='why-acm-btn' href="https://www.acm.org/" target='_blank'><button class="button">
+              <p class="button-text">Read More</p> <p class="iconer"><svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg></p>
+            </button></a>
           </div>
         </div>
 
@@ -40,7 +42,11 @@ function Aboutacm() {
           </div>
           <div className='Membership-content'>
             <p className='Membership-describe'>ACM provides enormous ways to enhance your career by providing resources, communication tools, along with its online courses, books and learning paths etc!!…</p>
-            <a href="https://www.acm.org/membership" target='_blank'><button className='Read-more'>Read more</button></a>
+            
+              <button class="button">
+              <a href="https://www.acm.org/membership" target='_blank' rel="noreferrer"></a>
+                <p class="button-text">Read More</p> <p class="iconer"><svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg></p>
+              </button>
             <a href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button className='Membership-btn'>Become a Member</button></a>
           </div>
         </div>
@@ -79,7 +85,9 @@ function Aboutacm() {
           {/* <img className='Why-ACM-img' src={indiancouncil} alt="indian council" /> */}
           <div className='Why-ACM-content'>
             <p className='Why-ACM-describe'>ACM, the world’s largest educational and scientific computing society, delivers resources that advance computing as a science and a profession…</p>
-            <a className='why-acm-btn' href="https://www.acm.org/" target='_blank'><button className='Read-more'>Read more</button></a>
+            <a className='why-acm-btn' href="https://www.acm.org/" target='_blank'><button class="button">
+              <p class="button-text">Read More</p> <p class="iconer"><svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg></p>
+            </button></a>
           </div>
         </div>
 
@@ -91,8 +99,12 @@ function Aboutacm() {
           <img className='membership-img' src={membership} alt="indian council" />
           <div className='Membership-content'>
             <p className='Membership-describe'>ACM provides enormous ways to enhance your career by providing resources, communication tools, along with its online courses, books and learning paths etc!!…</p>
-            <a className='Membership-btn' href="https://www.acm.org/membership" target='_blank'><button className='Read-more'>Read more</button></a>
-            <a className='Membership-btn' href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button className='Read-more'>Become a Member</button></a>
+            <a className='Membership-btn' href="https://www.acm.org/membership" target='_blank'><button class="button">
+              <p class="button-text">Read More</p> <p class="iconer"><svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg></p>
+            </button></a>
+            <a className='Membership-btn' href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button class="button">
+              <p class="button-text">Read More</p> <p class="iconer"><svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg></p>
+            </button></a>
           </div>
         </div>
 
@@ -104,7 +116,9 @@ function Aboutacm() {
           <img className='awards-img' src={awards} alt="indian council" />
           <div className='awards-content'>
             <p className='awards-describe'>ACM recognizes excellence through its eminent series of awards for technical and professional achievements and contributions in computer science and information technology…</p>
-            <a className='awards-btn' href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button className='Read-more'>Become a Member</button></a>
+            <a className='awards-btn' href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&&country=India&&form_type=Student&&promo=LEVEL&&pay=DD" target='_blank'><button class="button">
+              <p class="button-text">Read More</p> <p class="iconer"><svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg></p>
+            </button></a>
           </div>
         </div>
 
